@@ -21,8 +21,26 @@ class PodcastDetailViewController: UIViewController {
         super.viewDidLoad()
         setupPodcastDetails()
 
-        // Do any additional setup after loading the view.
+       
     }
+    
+    
+    
+    @IBAction func saveButtonPressed(_ sender: UIButton) {
+       
+        PodcastAPIManager.shared.postPodcast(podcast: podcast) { result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success:
+                    print("we posted our podcast!")
+                case .failure(let error) :
+                    print(error)
+                }
+            }
+        }
+    }
+    
+    
     
     
     private func setupPodcastDetails() {

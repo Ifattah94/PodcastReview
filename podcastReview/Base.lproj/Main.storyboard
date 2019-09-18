@@ -107,6 +107,9 @@
                                 <rect key="frame" x="114" y="681" width="186" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="0RL-Zj-Pfo" eventType="touchUpInside" id="o0i-n9-VOF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

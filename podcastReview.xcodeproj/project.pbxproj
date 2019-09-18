@@ -20,6 +20,7 @@
 		819D87082332BE78000538E8 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D87072332BE78000538E8 /* AppError.swift */; };
 		819D870A2332BF4C000538E8 /* PodcastAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D87092332BF4C000538E8 /* PodcastAPIManager.swift */; };
 		819D870C2332C810000538E8 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D870B2332C810000538E8 /* ImageHelper.swift */; };
+		819D870E2332D990000538E8 /* FavoritePodcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D870D2332D990000538E8 /* FavoritePodcast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		819D87072332BE78000538E8 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		819D87092332BF4C000538E8 /* PodcastAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastAPIManager.swift; sourceTree = "<group>"; };
 		819D870B2332C810000538E8 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		819D870D2332D990000538E8 /* FavoritePodcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePodcast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				819D87072332BE78000538E8 /* AppError.swift */,
 				819D87092332BF4C000538E8 /* PodcastAPIManager.swift */,
 				819D870B2332C810000538E8 /* ImageHelper.swift */,
+				819D870D2332D990000538E8 /* FavoritePodcast.swift */,
 			);
 			path = podcastReview;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				819D87042332BD5F000538E8 /* PodcastInfo.swift in Sources */,
 				819D870A2332BF4C000538E8 /* PodcastAPIManager.swift in Sources */,
 				819D86DE2332B6E7000538E8 /* AppDelegate.swift in Sources */,
+				819D870E2332D990000538E8 /* FavoritePodcast.swift in Sources */,
 				819D87082332BE78000538E8 /* AppError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

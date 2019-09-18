@@ -1,5 +1,5 @@
 //
-//  PodcastInfo.swift
+//  FavoritePodcast.swift
 //  podcastReview
 //
 //  Created by C4Q on 9/18/19.
@@ -7,14 +7,12 @@
 //
 
 import Foundation
-struct PodcastInfo: Codable {
-    let results: [Podcast]
-}
 
-struct Podcast: Codable {
+struct FavoritePodcast: Codable {
     let trackId: Int
-    let artistName: String
+    let favoritedBy: String
     let collectionName: String
     let artworkUrl60: String
-    let artworkUrl100: String
+    let favoriteId: Int
+    let createdAt: Int
 }
