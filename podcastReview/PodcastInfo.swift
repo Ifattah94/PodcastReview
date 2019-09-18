@@ -15,4 +15,5 @@ struct Podcast: Codable {
     let artistName: String
     let collectionName: String
     let artworkUrl60: String
+    let artworkUrl100: String
 }

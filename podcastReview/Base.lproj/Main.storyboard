@@ -84,6 +84,43 @@
             </objects>
             <point key="canvasLocation" x="1889.8550724637682" y="81.696428571428569"/>
         </scene>
+        <!--Podcast Detail View Controller-->
+        <scene sceneID="hYA-rd-uGr">
+            <objects>
+                <viewController storyboardIdentifier="PodcastDetailViewController" id="0RL-Zj-Pfo" customClass="PodcastDetailViewController" customModule="podcastReview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bel-eT-wRR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-2d-2zD">
+                                <rect key="frame" x="94" y="148" width="226" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xCX-ry-BxJ">
+                                <rect key="frame" x="40" y="324" width="341" height="307"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEQ-Gm-8CX">
+                                <rect key="frame" x="114" y="681" width="186" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Nrp-1I-vEE"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="2Fa-2d-2zD" id="wEm-56-Icf"/>
+                        <outlet property="podcastImageView" destination="xCX-ry-BxJ" id="TO8-ch-s4x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WXZ-fM-K42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2757.971014492754" y="109.15178571428571"/>
+        </scene>
         <!--Favorites-->
         <scene sceneID="GnB-o2-TGq">
             <objects>

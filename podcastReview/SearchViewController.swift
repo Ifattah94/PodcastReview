@@ -83,6 +83,14 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
         return 150
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let podcastSelected = podcasts[indexPath.row]
+        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+        let podcastDetailVC = storyBoard.instantiateViewController(withIdentifier: "PodcastDetailViewController") as! PodcastDetailViewController
+        podcastDetailVC.podcast = podcastSelected
+    self.navigationController?.pushViewController(podcastDetailVC, animated: true)
+    }
+    
 }
 
 extension SearchViewController: UISearchBarDelegate {
